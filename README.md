@@ -1,56 +1,16 @@
-# PYQ Archive
+# React + Vite
 
-This is a student contributed and maintained repository of GEHU question papers.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## Contribute Pyqs
+Currently, two official plugins are available:
 
-See [contribution guide](https://gehuhaldwani.github.io/pyqs/contribute/)
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## Credits
+## React Compiler
 
-<https://gehuhaldwani.github.io/pyqs/about/>
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
----
+## Expanding the ESLint configuration
 
-# Local Development
-
-## Requirements
-
-Bun.js or Node.js >= v24.XX
-
-## Steps
-
-0. Clone `gh-pages` branch
-
-  ```sh
-  git clone --branch gh-pages --single-branch https://github.com/gehuhaldwani/pyqs.git pyqs-web
-  ```
-0. Clone `main` branch
-
-  ```sh
-  git clone --branch main --single-branch https://github.com/gehuhaldwani/pyqs.git pyqs-web/pyqs
-  ```
-
-0. Change directory
-
-  ```sh
-  cd pyqs-web
-  ```
-
-0. Install dependencies
-
-  ```sh
-  bun i
-  ```
-
-0. Run
-
-  ```sh
-  bun --bun dev
-  ```
-
-0. Build
-
-  ```sh
-  bun --bun run build
-  ```
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
